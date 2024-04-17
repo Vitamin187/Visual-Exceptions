@@ -1,0 +1,7 @@
+Exception: System.TypeInitializationException: The type initializer for 'NepSmallerTurbines.NepSmallerTurbines' threw an exception. ---> System.TypeLoadException: Could not resolve type with token 01000023 (from typeref, class/assembly Verse.TweakValue, Assembly-CSharp, Version=1.4.8347.18814, Culture=neutral, PublicKeyToken=null)
+[Ref F9B41187] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref 4C0FA5B8]
+ at (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+ at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+ at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Verse.StaticConstructorOnStartupUtility.CallAll_Patch5()
